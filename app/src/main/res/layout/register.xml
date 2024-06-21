@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:autofillHints="name" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:autofillHints="name" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:autofillHints="emailAddress"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:autofillHints="phone"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/log_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/sign_up"
+        android:onClick="register" />
+
+</LinearLayout>

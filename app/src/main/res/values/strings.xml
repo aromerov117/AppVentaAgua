@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AppVentaAgua</string>
+    <string name="logo">Logo</string>
+    <string name="user_email">Usuario o correo electronico</string>
+    <string name="insert_user">Escriba su Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="insert_password">Escriba su Contraseña</string>
+    <string name="log_in">Iniciar Sesion</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellidos</string>
+    <string name="email">Correo Electrnico</string>
+    <string name="phone">Numero de Celular</string>
+    <string name="sign_up_up">Registrado Correctamente</string>
+</resources>
